@@ -1,0 +1,100 @@
+make  all-recursive
+make[1]: Entering directory `/home/chevy/libdvbcsa-1.1.0'
+Making all in src
+make[2]: Entering directory `/home/chevy/libdvbcsa-1.1.0/src'
+Making all in dvbcsa
+make[3]: Entering directory `/home/chevy/libdvbcsa-1.1.0/src/dvbcsa'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/chevy/libdvbcsa-1.1.0/src/dvbcsa'
+make[3]: Entering directory `/home/chevy/libdvbcsa-1.1.0/src'
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_algo.lo -MD -MP -MF .deps/dvbcsa_algo.Tpo -c -o dvbcsa_algo.lo dvbcsa_algo.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_algo.lo -MD -MP -MF .deps/dvbcsa_algo.Tpo -c dvbcsa_algo.c  -fPIC -DPIC -o .libs/dvbcsa_algo.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_algo.lo -MD -MP -MF .deps/dvbcsa_algo.Tpo -c dvbcsa_algo.c -o dvbcsa_algo.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_algo.Tpo .deps/dvbcsa_algo.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_block.lo -MD -MP -MF .deps/dvbcsa_block.Tpo -c -o dvbcsa_block.lo dvbcsa_block.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_block.lo -MD -MP -MF .deps/dvbcsa_block.Tpo -c dvbcsa_block.c  -fPIC -DPIC -o .libs/dvbcsa_block.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_block.lo -MD -MP -MF .deps/dvbcsa_block.Tpo -c dvbcsa_block.c -o dvbcsa_block.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_block.Tpo .deps/dvbcsa_block.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_algo.lo -MD -MP -MF .deps/dvbcsa_bs_algo.Tpo -c -o dvbcsa_bs_algo.lo dvbcsa_bs_algo.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_algo.lo -MD -MP -MF .deps/dvbcsa_bs_algo.Tpo -c dvbcsa_bs_algo.c  -fPIC -DPIC -o .libs/dvbcsa_bs_algo.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_algo.lo -MD -MP -MF .deps/dvbcsa_bs_algo.Tpo -c dvbcsa_bs_algo.c -o dvbcsa_bs_algo.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_bs_algo.Tpo .deps/dvbcsa_bs_algo.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_block.lo -MD -MP -MF .deps/dvbcsa_bs_block.Tpo -c -o dvbcsa_bs_block.lo dvbcsa_bs_block.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_block.lo -MD -MP -MF .deps/dvbcsa_bs_block.Tpo -c dvbcsa_bs_block.c  -fPIC -DPIC -o .libs/dvbcsa_bs_block.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_block.lo -MD -MP -MF .deps/dvbcsa_bs_block.Tpo -c dvbcsa_bs_block.c -o dvbcsa_bs_block.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_bs_block.Tpo .deps/dvbcsa_bs_block.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_key.lo -MD -MP -MF .deps/dvbcsa_bs_key.Tpo -c -o dvbcsa_bs_key.lo dvbcsa_bs_key.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_key.lo -MD -MP -MF .deps/dvbcsa_bs_key.Tpo -c dvbcsa_bs_key.c  -fPIC -DPIC -o .libs/dvbcsa_bs_key.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_key.lo -MD -MP -MF .deps/dvbcsa_bs_key.Tpo -c dvbcsa_bs_key.c -o dvbcsa_bs_key.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_bs_key.Tpo .deps/dvbcsa_bs_key.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_stream.lo -MD -MP -MF .deps/dvbcsa_bs_stream.Tpo -c -o dvbcsa_bs_stream.lo dvbcsa_bs_stream.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_stream.lo -MD -MP -MF .deps/dvbcsa_bs_stream.Tpo -c dvbcsa_bs_stream.c  -fPIC -DPIC -o .libs/dvbcsa_bs_stream.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_stream.lo -MD -MP -MF .deps/dvbcsa_bs_stream.Tpo -c dvbcsa_bs_stream.c -o dvbcsa_bs_stream.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_bs_stream.Tpo .deps/dvbcsa_bs_stream.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_stream.lo -MD -MP -MF .deps/dvbcsa_stream.Tpo -c -o dvbcsa_stream.lo dvbcsa_stream.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_stream.lo -MD -MP -MF .deps/dvbcsa_stream.Tpo -c dvbcsa_stream.c  -fPIC -DPIC -o .libs/dvbcsa_stream.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_stream.lo -MD -MP -MF .deps/dvbcsa_stream.Tpo -c dvbcsa_stream.c -o dvbcsa_stream.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_stream.Tpo .deps/dvbcsa_stream.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_transpose.lo -MD -MP -MF .deps/dvbcsa_bs_transpose.Tpo -c -o dvbcsa_bs_transpose.lo dvbcsa_bs_transpose.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_transpose.lo -MD -MP -MF .deps/dvbcsa_bs_transpose.Tpo -c dvbcsa_bs_transpose.c  -fPIC -DPIC -o .libs/dvbcsa_bs_transpose.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_transpose.lo -MD -MP -MF .deps/dvbcsa_bs_transpose.Tpo -c dvbcsa_bs_transpose.c -o dvbcsa_bs_transpose.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_bs_transpose.Tpo .deps/dvbcsa_bs_transpose.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_key.lo -MD -MP -MF .deps/dvbcsa_key.Tpo -c -o dvbcsa_key.lo dvbcsa_key.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_key.lo -MD -MP -MF .deps/dvbcsa_key.Tpo -c dvbcsa_key.c  -fPIC -DPIC -o .libs/dvbcsa_key.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_key.lo -MD -MP -MF .deps/dvbcsa_key.Tpo -c dvbcsa_key.c -o dvbcsa_key.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_key.Tpo .deps/dvbcsa_key.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_transpose64.lo -MD -MP -MF .deps/dvbcsa_bs_transpose64.Tpo -c -o dvbcsa_bs_transpose64.lo dvbcsa_bs_transpose64.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_transpose64.lo -MD -MP -MF .deps/dvbcsa_bs_transpose64.Tpo -c dvbcsa_bs_transpose64.c  -fPIC -DPIC -o .libs/dvbcsa_bs_transpose64.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT dvbcsa_bs_transpose64.lo -MD -MP -MF .deps/dvbcsa_bs_transpose64.Tpo -c dvbcsa_bs_transpose64.c -o dvbcsa_bs_transpose64.o >/dev/null 2>&1
+mv -f .deps/dvbcsa_bs_transpose64.Tpo .deps/dvbcsa_bs_transpose64.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -version-info 1:1:0   -o libdvbcsa.la -rpath /usr/lib dvbcsa_algo.lo dvbcsa_block.lo dvbcsa_bs_algo.lo dvbcsa_bs_block.lo dvbcsa_bs_key.lo dvbcsa_bs_stream.lo dvbcsa_stream.lo dvbcsa_bs_transpose.lo dvbcsa_key.lo  dvbcsa_bs_transpose64.lo   
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/dvbcsa_algo.o .libs/dvbcsa_block.o .libs/dvbcsa_bs_algo.o .libs/dvbcsa_bs_block.o .libs/dvbcsa_bs_key.o .libs/dvbcsa_bs_stream.o .libs/dvbcsa_stream.o .libs/dvbcsa_bs_transpose.o .libs/dvbcsa_key.o .libs/dvbcsa_bs_transpose64.o    -O3   -Wl,-soname -Wl,libdvbcsa.so.1 -o .libs/libdvbcsa.so.1.0.1
+libtool: link: (cd ".libs" && rm -f "libdvbcsa.so.1" && ln -s "libdvbcsa.so.1.0.1" "libdvbcsa.so.1")
+libtool: link: (cd ".libs" && rm -f "libdvbcsa.so" && ln -s "libdvbcsa.so.1.0.1" "libdvbcsa.so")
+libtool: link: ar cru .libs/libdvbcsa.a  dvbcsa_algo.o dvbcsa_block.o dvbcsa_bs_algo.o dvbcsa_bs_block.o dvbcsa_bs_key.o dvbcsa_bs_stream.o dvbcsa_stream.o dvbcsa_bs_transpose.o dvbcsa_key.o dvbcsa_bs_transpose64.o
+libtool: link: ranlib .libs/libdvbcsa.a
+libtool: link: ( cd ".libs" && rm -f "libdvbcsa.la" && ln -s "../libdvbcsa.la" "libdvbcsa.la" )
+make[3]: Leaving directory `/home/chevy/libdvbcsa-1.1.0/src'
+make[2]: Leaving directory `/home/chevy/libdvbcsa-1.1.0/src'
+Making all in test
+make[2]: Entering directory `/home/chevy/libdvbcsa-1.1.0/test'
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT benchbitslice-benchbitslice.o -MD -MP -MF .deps/benchbitslice-benchbitslice.Tpo -c -o benchbitslice-benchbitslice.o `test -f 'benchbitslice.c' || echo './'`benchbitslice.c
+mv -f .deps/benchbitslice-benchbitslice.Tpo .deps/benchbitslice-benchbitslice.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o benchbitslice benchbitslice-benchbitslice.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/benchbitslice benchbitslice-benchbitslice.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT testbitslice-testbitslice.o -MD -MP -MF .deps/testbitslice-testbitslice.Tpo -c -o testbitslice-testbitslice.o `test -f 'testbitslice.c' || echo './'`testbitslice.c
+mv -f .deps/testbitslice-testbitslice.Tpo .deps/testbitslice-testbitslice.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o testbitslice testbitslice-testbitslice.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/testbitslice testbitslice-testbitslice.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT benchdec-benchdec.o -MD -MP -MF .deps/benchdec-benchdec.Tpo -c -o benchdec-benchdec.o `test -f 'benchdec.c' || echo './'`benchdec.c
+mv -f .deps/benchdec-benchdec.Tpo .deps/benchdec-benchdec.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o benchdec benchdec-benchdec.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/benchdec benchdec-benchdec.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT benchenc-benchenc.o -MD -MP -MF .deps/benchenc-benchenc.Tpo -c -o benchenc-benchenc.o `test -f 'benchenc.c' || echo './'`benchenc.c
+mv -f .deps/benchenc-benchenc.Tpo .deps/benchenc-benchenc.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o benchenc benchenc-benchenc.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/benchenc benchenc-benchenc.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT testdec-testdec.o -MD -MP -MF .deps/testdec-testdec.Tpo -c -o testdec-testdec.o `test -f 'testdec.c' || echo './'`testdec.c
+mv -f .deps/testdec-testdec.Tpo .deps/testdec-testdec.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o testdec testdec-testdec.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/testdec testdec-testdec.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT testenc-testenc.o -MD -MP -MF .deps/testenc-testenc.Tpo -c -o testenc-testenc.o `test -f 'testenc.c' || echo './'`testenc.c
+mv -f .deps/testenc-testenc.Tpo .deps/testenc-testenc.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o testenc testenc-testenc.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/testenc testenc-testenc.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT testbsops-testbsops.o -MD -MP -MF .deps/testbsops-testbsops.Tpo -c -o testbsops-testbsops.o `test -f 'testbsops.c' || echo './'`testbsops.c
+mv -f .deps/testbsops-testbsops.Tpo .deps/testbsops-testbsops.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o testbsops testbsops-testbsops.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/testbsops testbsops-testbsops.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT benchbitsliceks-benchbitsliceks.o -MD -MP -MF .deps/benchbitsliceks-benchbitsliceks.Tpo -c -o benchbitsliceks-benchbitsliceks.o `test -f 'benchbitsliceks.c' || echo './'`benchbitsliceks.c
+mv -f .deps/benchbitsliceks-benchbitsliceks.Tpo .deps/benchbitsliceks-benchbitsliceks.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o benchbitsliceks benchbitsliceks-benchbitsliceks.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/benchbitsliceks benchbitsliceks-benchbitsliceks.o  ../src/.libs/libdvbcsa.so
+gcc -DHAVE_CONFIG_H -I. -I..    -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -MT benchks-benchks.o -MD -MP -MF .deps/benchks-benchks.Tpo -c -o benchks-benchks.o `test -f 'benchks.c' || echo './'`benchks.c
+mv -f .deps/benchks-benchks.Tpo .deps/benchks-benchks.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc -I../src -Wall  -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600   -o benchks benchks-benchks.o ../src/libdvbcsa.la 
+libtool: link: gcc -I../src -Wall -O3 -fomit-frame-pointer -D_XOPEN_SOURCE=600 -o .libs/benchks benchks-benchks.o  ../src/.libs/libdvbcsa.so
+make[2]: Leaving directory `/home/chevy/libdvbcsa-1.1.0/test'
+make[2]: Entering directory `/home/chevy/libdvbcsa-1.1.0'
+make[2]: Leaving directory `/home/chevy/libdvbcsa-1.1.0'
+make[1]: Leaving directory `/home/chevy/libdvbcsa-1.1.0'
